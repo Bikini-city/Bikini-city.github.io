@@ -1,8 +1,8 @@
 # Site settings
 title: YAMT
 description: "Yet Another Minimal Theme"
-url:  "https://pandasekh.github.io/Jekyll-YAMT/" # Actual base url of the website
-baseurl: "/"           # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
+url: "https://pandasekh.github.io/Jekyll-YAMT/" # Actual base url of the website
+baseurl: "/" # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
 author:
   name: "Alessio Franceschi"
   email: "alessiofranceschi2@gmail.com"
@@ -31,20 +31,20 @@ social:
     - https://www.github.com/pandasekh
     - https://www.linkedin.com/in/alessio-franceschi/
 webmaster_verifications:
-  google: 
-  bing: 
-  alexa: 
-  yandex: 
-  baidu: 
+  google:
+  bing:
+  alexa:
+  yandex:
+  baidu:
 lang: en_US
 
 #Highlighter
 kramdown:
-  input:          GFM
+  input: GFM
   syntax_highlighter: rouge
 
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: "highlight"
     span:
       line_numbers: false
     block:
@@ -55,3 +55,5 @@ kramdown:
 sass:
   style: compressed
   sourcemap: never
+
+theme: jekyll-yamt
